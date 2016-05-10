@@ -20,6 +20,8 @@
 
 		<link rel="stylesheet" type="text/css" href="assets/css/jssor.slider.css" />
 
+		<link rel="stylesheet" type="text/css" href="assets/css/colorbox.css" />
+
 		
 </head>
 	<body class="landing">
@@ -93,6 +95,7 @@
 						</figure>
 						<br />
 					</section>
+					<hr />
 					<section><li>Demo 2 一般公認審計準則總綱 使用 <a href="https://github.com/jschr/textillate" target="_blank">Textillate.js</a> </li>
 				 <div class="tlt"><h1></h1>
                     <ul class="texts" style="display: none">
@@ -113,6 +116,7 @@
                     </ul>
                   </div>
                   </section>
+                  <hr />
                   <section><li>Demo 3 使用 <a href="http://tympanus.net/codrops/2012/10/09/windy-a-plugin-for-swift-content-navigation/" target="_blank">Windy: A Plugin for Swift Content Navigation</a></li>
                   					<div class="windy-demo windy-demo-2">
 
@@ -176,6 +180,7 @@
 					</nav>
 				</div>
                   </section>
+                  <hr />
                   <section><li>Demo 4 使用 <a href="https://www.jssor.com/demos/list-slider.slider" target="_blank">List Slider</a></li><br />
                   	    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 810px; height: 300px; overflow: hidden; visibility: hidden; background-color: #000000;">
         <!-- Loading Screen -->
@@ -236,7 +241,20 @@
     </div>
     <hr />
                   </section>
-					
+				  <section><li>Demo 5 使用 <a href="http://www.jacklmoore.com/colorbox/" target="_blank">Colorbox - a jQuery lightbox</a></li><br />	
+				  <p>裡面有8張圖</p>	
+				  <p><a class="group1" href="images/demo5/cat.gif" title="WTF is this?!"><img src="images/demo5/cat.jpg"></a></p>
+			      <a class="group1" href="images/demo5/gracefuldog.gif" ></a>
+			      <a class="group1" href="images/demo5/mistake.gif" ></a>
+			      <a class="group1" href="images/demo5/snacks.gif" ></a>
+			      <a class="group1" href="images/demo5/seeing.gif" title="You seeing this shit?"></a>
+			      <a class="group1" href="images/demo5/friend.gif" ></a>
+			      <a class="group1" href="images/demo5/mouse.gif" ></a>
+			      <a class="group1" href="images/demo5/back.gif" ></a>
+			      
+			      </section>
+
+			      <hr />
                   <section>
                   <h3>以Demo 3做說明</h3>
                   <li>Step1</li>
@@ -420,6 +438,14 @@
     	</script>
 
     	<!-- Plugin 5-->
+    	<script src="assets/js/jquery.colorbox.js"></script>
+    	<script type="text/javascript">
+    			$(document).ready(function(){
+				$(".group1").colorbox({rel:'group1'});
+
+				});
+    	</script>
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
